@@ -1,0 +1,51 @@
+#works {
+  min-width: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+  background: rgb(25, 25, 25);
+}
+
+.worksTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+.worksDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.worksImg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 65rem;
+}
+.workImg {
+  object-fit: cover;
+  height: 7rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.workImg:hover {
+  transform: scale(1.05);
+}
+.workbtn {
+  padding: 0.5rem 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+@media screen and (max-width: 585px) {
+  .workImg {
+    height: 48vw;
+  }
+}
