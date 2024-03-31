@@ -1,17 +1,12 @@
 import React from "react";
 import "./Work.css";
-import HTML from "../../assets/Logos/HTML.png";
-import CSS from "../../assets/Logos/CSS.png";
-import JAVASCRIPT from "../../assets/Logos/JAVASCRIPT.png";
-import REACT from "../../assets/Logos/REACT.png";
-import NODEJS from "../../assets/Logos/NODEJS.png";
-import MONGODB from "../../assets/Logos/MONGODB.png";
-import BOOTSTRAP from "../../assets/Logos/BOOTSTRAP.png";
-import MYSQL from "../../assets/Logos/MYSQL.png";
-import POSTMAN from "../../assets/Logos/POSTMAN.png";
-import NPM from "../../assets/Logos/NPM.png";
-import XD from "../../assets/Logos/XD.png";
-import AWS from "../../assets/Logos/AWS.png";
+import fcpx from "../../assets/Logos/FCPX.png";
+import Premiere from "../../assets/Logos/Premiere.png";
+import AE from "../../assets/Logos/After_Effects.png";
+import Illustrator from "../../assets/Logos/Illustrator.png";
+import images from "../../assets/Logos/images.png";
+import XD2 from "../../assets/Logos/XD2.png";
+import InDesign from "../../assets/Logos/InDesign.png";
 
 export default function Work() {
   return (
@@ -26,18 +21,13 @@ export default function Work() {
         </span> */}
         {/* <h2>Front End </h2> */}
         <div className="worksImg">
-          <img src={HTML} alt="porfolio" className="workImg" />
-          <img src={CSS} alt="porfolio" className="workImg" />
-          <img src={JAVASCRIPT} alt="porfolio" className="workImg" />
-          <img src={REACT} alt="porfolio" className="workImg" />
-          <img src={BOOTSTRAP} alt="porfolio" className="workImg" />
-          <img src={NODEJS} alt="porfolio" className="workImg" />
-          <img src={NPM} alt="porfolio" className="workImg" />
-          <img src={MONGODB} alt="porfolio" className="workImg" />
-          <img src={MYSQL} alt="porfolio" className="workImg" />
-          <img src={POSTMAN} alt="porfolio" className="workImg" />
-          <img src={AWS} alt="porfolio" className="workImg" />
-          <img src={XD} alt="porfolio" className="workImg" />
+          <img src={fcpx} alt="final-cut-pro" className="workImg" />
+          <img src={Premiere} alt="adobe-primerepro" className="workImg" />
+          <img src={AE} alt="adobe-after-effects" className="workImg" />
+          <img src={Illustrator} alt="adobe-primerepro" className="workImg" />
+          <img src={images} alt="adobe-primerepro" className="workImg" />
+          <img src={XD2} alt="xd" className="workImg" />
+          <img src={InDesign} alt="xd" className="workImg" />
         </div>
 
         {/* <button className="workbtn">See more..</button>  */}

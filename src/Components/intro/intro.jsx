@@ -1,9 +1,7 @@
 import React from "react";
 import "./Intro.css";
-// import bg from "../../assets/image.png";
 import btnImg from "../../assets/hireme.png";
-import studnetAnime from "../../assets/Dev.json";
-// import { Link } from "react-scroll";
+import videoAnimation from "../../assets/video-animation.json";
 import { Button } from "@mui/material";
 import WorkIcon from "@mui/icons-material/Work";
 import Lottie from "lottie-react";
@@ -15,23 +13,25 @@ export default function Intro() {
           <span className="hello">Hi</span>
           <span className="introText">
             I'am <span className="introName">Panneer Selvam</span> <br />
-            Full-stack Web Developer
+            Video editor & Motion graphics
           </span>
           <p className="introPara">
-            I am a passionate full-stack web developer with proficiency in
-            front-end and server-side languages. I am self-taught, and I have
-            improved my skills through reading documentation, watching YouTube
-            videos, and taking Udemy courses.I have strong knowledge in
-            JavaScript, HTML, CSS, React, Node.js, and MongoDB. able to write
-            code that is easy to read, reusable, and maintainable. I am looking
-            for a full-stack web developer position at a fast-paced tech
-            company.
+            Highly skilled and creative video editor with 5+ years of experience
+            in crafting compelling video content using industry-standard
+            software like Final Cut Pro X (FCPX) and Adobe Premiere Pro. I am
+            proficient in motion graphics creation using Adobe After Effects and
+            possess additional skills in Adobe Photoshop and Illustrator for
+            design elements. Proven ability to collaborate effectively with
+            teams, meet deadlines, and deliver high-quality productions that
+            resonate with target audiences. I am seeking a challenging
+            opportunity to utilize my expertise and passion for storytelling to
+            elevate your brand's visual identity.
           </p>
 
           <a
             style={{ color: "white" }}
-            href={require("../../assets/Panneer resume_2.0.pdf")}
-            download={"Panneer resume_2.0.pdf"}
+            href={require("../../assets/video_Panneer.pdf")}
+            download={"Panneer_Resume.pdf"}
           >
             <Button
               variant="contained"
@@ -57,7 +57,7 @@ export default function Intro() {
             }}
             loop={true}
             className="bg"
-            animationData={studnetAnime}
+            animationData={videoAnimation}
           />
         </div>
       </section>

@@ -9,7 +9,7 @@ import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
-  const name = "< Panneer Selvam / >";
+  const name = "Panneer Selvam";
   return (
     <div>
       <nav className="navbar">

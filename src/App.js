@@ -6,6 +6,7 @@ import Work from "./Components/Work/Work.jsx";
 import Cont1 from "./Components/contact/cont1.jsx";
 // import Contact from "./Components/contact/contact.jsx";
 import Intro from "./Components/intro/intro.jsx";
+import VideoLayout from "./Components/videoSkill/VideoLayout.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Intro />
       <Skills />
+      <VideoLayout />
       <Work />
       <Cont1 />
       <Footer />

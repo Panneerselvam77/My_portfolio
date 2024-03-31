@@ -72,8 +72,8 @@ export default function Cont1() {
               <Button style={{ marginTop: "1rem" }} variant="contained">
                 <a
                   style={{ color: "white" }}
-                  href={require("../../assets/Panneer resume_2.0.pdf")}
-                  download={"Panneer resume_2.0.pdf"}
+                  href={require("../../assets/video_Panneer.pdf")}
+                  download={"Panneer_Resume.pdf"}
                 >
                   Download Cv
                 </a>
