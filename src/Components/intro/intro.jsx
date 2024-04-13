@@ -13,7 +13,7 @@ export default function Intro() {
           <span className="hello">Hi</span>
           <span className="introText">
             I'am <span className="introName">Panneer Selvam</span> <br />
-            Video editor & Motion graphics
+            Full stack developer
           </span>
           <p className="introPara">
             Highly skilled and creative video editor with 5+ years of experience
